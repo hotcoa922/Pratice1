@@ -1,36 +1,43 @@
 <!doctype html>
 <html>
-
 <head>
+  <title>MainPage</title>
   <meta charset="utf-8">
+  <style>
+    body {
+      margin: 100px;
+    }
+    a {
+      text-decoration: none;
+    }
+    h1 {
+      color: black;
+      padding-left: 100px;
+    }
+
+    #grid a {
+      text-decoration: none;
+      border: 3px orange solid;
+      background-color: #C8FFFF;
+      padding: 5px 10px; /*높이, 폭 순서*/
+  </style>
+
 </head>
 
 <body>
-<h3>연습용 웹 사이트 개설</h3><br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE"
-title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br>
-댓글기능 테스트<br>
-<div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://practice1-mq1pvqyll1.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="main.html"><h1>요일별 기상예보 확인하기</h1></a>
+  <div id=grid>
+    <ul>
+      <a href="mon.html" >월요일</a>
+      <a href="tue.html" >화요일</a>
+      <a href="wen.html" >수요일</a></li>
+      <a href="thu.html" >목요일</a>
+      <a href="fri.html" >금요일</a>
+      <a href="sat.html" >토요일</a>
+      <a href="sun.html" >일요일</a>
+    </ul>
 
+
+  </div>
 </body>
-
 </html>

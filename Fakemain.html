@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>MainPage</title>
+  <meta charset="utf-8">
+  <style>
+    a {
+      color: black;  /*모든 a태그에 대하여 검은색 */
+      text-decoration: none;  /*모든 a태그에 대하여 밑줄 안그*/
+      /*만약 특정 것만 다르게 하고 싶으면 그 태그에서 style="원하는 내용;원하는내용" 하면 된다.*/
+
+    }
+    h2 {
+      font-size: 60px;  /*글씨크기*/
+      text-align: center; /*가운데정렬(center, left, right)*/
+    }
+  </style>
+</head>
+
+<body>
+<h3>연습용 웹 사이트 개설</h3><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+댓글기능 테스트<br>
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://practice1-mq1pvqyll1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript><br><br><br>
+
+-------------------------------------------------------------------------------<br>
+<h2>스케쥴 표</h2>
+<li><a href="mon.html">월요일에 할 일</a></li>
+<li><a href="tue.html">화요일에 할 일</a></li>
+<li><a href="wen.html">수요일에 할 일</a></li>
+<li><a href="thu.html">목요일에 할 일</a></li>
+<li><a href="fri.html">금요일에 할 일</a></li>
+<li><a href="sat.html">토요일에 할 일</a></li>
+<li><a href="sun.html">일요일에 할 일</a></li>
+
+</body>
+
+</html>
