@@ -1,0 +1,17 @@
+<style>
+  body {
+    margin: 100px;
+  }
+
+  h1 {
+    color: black;
+    padding-left: 100px;
+  }
+
+  #grid a {
+    text-decoration: none;
+    border: 3px orange solid;
+    background-color: #C8FFFF;
+    padding: 5px 10px; /*높이, 폭 순서*/
+  }
+</style>
